@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sales Claim Submission</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Submit Your Sales Claim</h1>
+  <form id="claimForm">
+    <label>Name:</label><input type="text" required><br>
+    <label>Email:</label><input type="email" required><br>
+    <label>Invoice #:</label><input type="text" required><br>
+    <label>Claim Type:</label>
+    <select>
+      <option>Commission</option>
+      <option>Underpayment</option>
+      <option>Product Return</option>
+    </select><br>
+    <label>Description:</label><textarea></textarea><br>
+    <label>Upload Proof:</label><input type="file"><br>
+    <button type="submit">Submit Claim</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

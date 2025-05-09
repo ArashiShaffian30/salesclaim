@@ -1,0 +1,4 @@
+document.getElementById("claimForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+  alert("Claim submitted successfully!");
+});
